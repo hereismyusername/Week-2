@@ -1,3 +1,20 @@
 // Place all the styles related to the places controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pagination {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pagination > * {
+    padding: 1em;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}
+
+.pagination a:active {
+    font-weight: 900;
+}
