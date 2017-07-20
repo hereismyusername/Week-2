@@ -60,3 +60,5 @@ end
 gem 'will_paginate', '~> 3.1.1'
 gem 'simple_form'
 gem "font-awesome-rails"
+#"Font Awesome by Dave Gandy - http://fontawesome.io"."
+gem 'devise'
