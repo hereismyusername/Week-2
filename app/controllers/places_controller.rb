@@ -20,6 +20,10 @@ class PlacesController < ApplicationController
     @place = Place.find(params[:id])
   end
 
+  def
+    @place = Place.find(params[:id])
+  end
+
   private
 
   def place_params
