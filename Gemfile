@@ -62,3 +62,5 @@ gem 'simple_form'
 gem "font-awesome-rails"
 #"Font Awesome by Dave Gandy - http://fontawesome.io"."
 gem 'devise'
+gem 'geocoder'
+gem 'figaro'
