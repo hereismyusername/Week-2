@@ -144,8 +144,10 @@
 <div class="booyah-box col-10 offset-1">
   <div class="row">
     <% @place.photos.each do |photo| %>
-      <%= image_tag photo.picture, class: 'img-fluid clear margin-bottom' %>
-      <%= photo.caption %>
+      <%= image_tag photo.picture, class: 'img-fluid clear' %>
+      <div class="col-10 margin-bottom">
+        <%= photo.caption %>
+      </div>
     <% end %>
   </div>
 </div>
