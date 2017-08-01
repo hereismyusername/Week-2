@@ -85,3 +85,9 @@ blockquote p {
 .margin-bottom {
   margin-bottom: 1.5em;
 }
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+ display:block !important;
+}
