@@ -97,5 +97,5 @@ Rails.application.configure do
 end
 
 #attempt to fix carousel images not loading in production
-config.serve_static_files = true
-config.serve_static_assets = true
+#config.serve_static_files = true
+#config.serve_static_assets = true
